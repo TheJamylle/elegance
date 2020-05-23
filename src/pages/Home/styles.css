@@ -1,3 +1,29 @@
+.home-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-container nav{
+    background-color: #f0f0f5;
+}
+.home-container nav a {
+    float: left;
+    color: #272727;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 1s;
+}
+
+.home-container nav a:hover {
+    color: #293550;
+    transition: 1s;
+  }
+
 .menu{
     color:#1c1c1c;
     background: #eee; line-height:20px;
