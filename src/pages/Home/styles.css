@@ -1,0 +1,41 @@
+.menu{
+    color:#1c1c1c;
+    background: #eee; line-height:20px;
+    margin:1px;
+    margin-bottom:5px;
+    margin-left:15px;
+    padding:3px;
+    display: inline-block;
+    text-shadow: 1px 1px 1px #fff;
+    font-family: Raleway;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    height:20px;width: 100px;
+    border-radius:1px;
+    opacity:0.8;-moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: 0.9s linear;
+    transition: all 0.9s ease-out;
+    -moz-transition: all 0.9s ease-out;
+}
+
+.menu:hover{
+    cursor:hand;
+    background:#A9A9A9; font-family: Raleway;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    color:#FFF;
+    opacity: 1;
+    text-shadow: 1px 1px 1px #BFC9D3;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px -12px #A9A9A9, inset 0px 15px #A9A9A9;
+}
