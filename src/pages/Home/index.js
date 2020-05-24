@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css';
+import um from '../../assets/clothes.jpg';
 
 export default function Home(){
     return(
@@ -13,7 +14,7 @@ export default function Home(){
                     <Link><span>Quero Começar</span></Link>
             </nav>
             <div className="apresentation">
-                o que é Elegance
+                <img src={um}/>
             </div>
             <div className="details">
                 Como funciona
